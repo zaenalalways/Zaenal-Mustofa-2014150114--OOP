@@ -1,0 +1,98 @@
+body{
+    margin-top: 30px;
+    font-size: 14px;
+    font-family: arial, verdana;  
+    background-color:#1B1515;
+}
+
+h1, h2, h3, h4,h5{
+    margin: auto;
+    text-align: center;
+}
+table {
+    font-family: Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 9pt;
+    border-width: 1px;
+    border-style: solid;
+    border-color: salmon;
+    border-collapse: collapse;
+    margin: 10px 0px;
+}
+table th{
+    color: #FFFFFF;
+    font-size: 7pt;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #969BA5;
+    border-collapse: collapse;
+    background-color: salmon;
+}
+table td{
+    padding: 0.5em;
+    vertical-align: top;
+    border:1px solid 000;
+    border-collapse: collapse;
+}
+#container{    
+    background-color: white;
+    width: 980px;
+    padding: 2px;
+    margin: auto;
+    border: solid 000 4px;
+    border-radius: 10px;
+}
+#header{
+    color: white;
+    background-color: #3366ff;
+    width: 980px;
+    height: 100px;
+    margin: auto;
+    border: solid #EEEEEE;
+    background-image: url("../images/header_2.gif");
+}
+#menu {
+    background-color:#000;
+    width: 98%;
+    padding:10px;
+    border-radius: 8px;
+
+}
+#menu a:hover{
+    color: #000;
+     border-radius: 5px;
+}
+
+#menu a {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color:#fff;
+    border-radius: 5px;
+    background-color: salmon;
+    padding: 7px;
+}
+#konten{
+    padding-top: 20px;
+    width: 100%;
+    min-height: 300px;
+    margin: auto;
+}
+
+#footer{
+    background-color:#242121;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+#footer a {color: #FFF;text-decoration: none;}
+.isinya{
+    padding: 10px;
+}
+
